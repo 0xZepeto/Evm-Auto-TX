@@ -1,0 +1,24 @@
+{
+  "name": "Evm-Auto-TX",
+  "version": "1.0.0",
+  "description": "Automate EVM transactions on testnets and mainnet. Auto tf token Bep20 & erc20.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "target": "node target.js"
+  },
+  "keywords": [
+    "automation",
+    "EVM",
+    "testnet",
+    "transactions"
+  ],
+  "author": "0xZepeto",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "ethers": "^6.13.1",
+    "readline-sync": "^1.4.10"
+  }
+}
